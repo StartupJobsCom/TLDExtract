@@ -1,12 +1,16 @@
 {
   "name": "layershifter/tld-extract",
-  "description": "TLDExtract package",
+  "description": "TLDExtract package forked from layershifter/tld-extract to support PHP 5.4",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
       "name": "Alexander Fedyashov",
       "email": "a@fedyashov.com"
+    },
+    {
+      "name": "Ivan Kristianto",
+      "email": "ivan.kristianto@10up/cp,"
     }
   ],
   "require": {

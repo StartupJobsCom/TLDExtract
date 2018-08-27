@@ -7,6 +7,12 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/layershifter/TLDExtract/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/layershifter/TLDExtract/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/layershifter/TLDExtract/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/layershifter/TLDExtract/?branch=master)
 
+# This is a forked from `layershifter/tld-extract` to support PHP 5.4.0.
+
+To support PHP 5.4.0 please use version `^0.2.2` or use the composer command below:
+
+    composer require ivankristianto/tld-extract "^0.2.2"
+
 `TLDExtract` accurately separates the gTLD or ccTLD (generic or country code
 top-level domain) from the registered domain and subdomains of a URL. For
 example, say you want just the 'google' part of 'http://www.google.com'.
@@ -56,6 +62,7 @@ This package based on code from [w-shadow](http://w-shadow.com/blog/2012/08/28/t
 which is port of [Python module](https://github.com/john-kurkowski/tldextract).
 
 ## Compatible PHP versions
+- PHP 5.4
 - PHP 5.5
 - PHP 5.6
 - PHP 7

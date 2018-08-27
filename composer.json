@@ -1,5 +1,5 @@
 {
-  "name": "layershifter/tld-extract",
+  "name": "ivankristianto/tld-extract",
   "description": "TLDExtract package forked from layershifter/tld-extract to support PHP 5.4",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Ivan Kristianto",
-      "email": "ivan.kristianto@10up/cp,"
+      "email": "ivan.kristianto@10up.com"
     }
   ],
   "require": {
